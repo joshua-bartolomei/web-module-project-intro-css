@@ -42,6 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Css reset above*/
 
 html {
     font-size: 62.5%;
@@ -126,21 +127,25 @@ p {
     padding: 5%;
 }
 
+.above {
+    display: flex;
+    justify-content: center;
+}
+
+.below {
+    display: flex;
+    justify-content: center;
+}
+
 #fire {
-   display: flex;
    height: 250px;
    width: 250px;
-   align-items: center;
-   justify-content: center;
 }
 
 #rv {
-    display: flex;
     height: 250px;
     width: 250px;
-    align-items: center;
-    justify-content: center;
-}
+    }
 
 #footer-img {
     width: 100%;
