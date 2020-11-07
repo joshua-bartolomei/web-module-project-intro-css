@@ -129,12 +129,14 @@ p {
 
 .above {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .below {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #fire {
